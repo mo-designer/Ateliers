@@ -1,0 +1,40 @@
+main {
+    width: 80%;
+    margin: auto;
+    min-height: 2000px;
+}
+
+section {
+    padding: 4% 0;
+
+}
+
+#affich {
+background-color: rgba(0, 0, 0, 0.4);
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+position: fixed;
+z-index: 1;
+visibility: hidden;
+}
+
+#affich img {
+display: block;
+position: relative;
+width: fit-content;
+align-self: center;
+cursor:pointer;
+}
+
+.container {
+    display:flex;
+    justify-content: space-around;
+}
+
+.container img {
+    display: block;
+    height: 120px;
+    cursor:pointer;
+}
